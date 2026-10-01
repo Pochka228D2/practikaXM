@@ -1,0 +1,48 @@
+2026-10-01 10:19:38,864 ==================================================
+2026-10-01 10:19:38,864 Запуск теста: Успешный логин
+2026-10-01 10:19:38,864 Открываем страницу логина
+2026-10-01 10:19:40,888 Начинаем логин пользователя standard_user
+2026-10-01 10:19:40,888 Вводим логин: standard_user
+2026-10-01 10:19:40,933 Вводим пароль: secret_sauce
+2026-10-01 10:19:40,969 Нажимаем кнопку Login
+2026-10-01 10:19:41,001 Логин завершен
+2026-10-01 10:19:41,029 Тест пройден: Логин успешен
+2026-10-01 10:19:43,116 ====== WebDriver manager ======
+2026-10-01 10:19:45,627 Get LATEST chromedriver version for google-chrome
+2026-10-01 10:19:46,770 WebDriver version 154.0.8037.92 selected
+2026-10-01 10:19:46,774 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/win64/chromedriver-win64.zip
+2026-10-01 10:19:46,774 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/win64/chromedriver-win64.zip
+2026-10-01 10:19:47,300 Driver downloading response is 200
+2026-10-01 10:19:56,759 Get LATEST chromedriver version for google-chrome
+2026-10-01 10:19:58,100 Driver has been saved in cache [C:\Users\cca77\.wdm\drivers\chromedriver\win64\154.0.8037.92]
+2026-10-01 10:20:01,818 ====== WebDriver manager ======
+2026-10-01 10:20:02,793 Driver [C:\Users\cca77\.wdm\drivers\edgedriver\win64\154.0.4258.48\msedgedriver.exe] found in cache by browser version
+2026-10-01 10:20:03,634 ==================================================
+2026-10-01 10:20:03,635 Запуск теста: Проверка ошибок
+2026-10-01 10:20:03,635 Открываем страницу логина
+2026-10-01 10:20:05,188 Начинаем логин пользователя locked_out_user
+2026-10-01 10:20:05,188 Вводим логин: locked_out_user
+2026-10-01 10:20:05,234 Вводим пароль: secret_sauce
+2026-10-01 10:20:05,268 Нажимаем кнопку Login
+2026-10-01 10:20:05,300 Логин завершен
+2026-10-01 10:20:05,309 Обнаружено сообщение об ошибке
+2026-10-01 10:20:05,316 Текст ошибки: Epic sadface: Sorry, this user has been locked out.
+2026-10-01 10:20:05,316 Тест пройден: Ошибка отображается корректно
+2026-10-01 10:20:07,369 ====== WebDriver manager ======
+2026-10-01 10:20:09,903 Get LATEST chromedriver version for google-chrome
+2026-10-01 10:20:11,053 WebDriver version 154.0.8037.92 selected
+2026-10-01 10:20:11,058 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/win64/chromedriver-win64.zip
+2026-10-01 10:20:11,058 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/win64/chromedriver-win64.zip
+2026-10-01 10:20:11,629 Driver downloading response is 200
+2026-10-01 10:20:15,071 Get LATEST chromedriver version for google-chrome
+2026-10-01 10:20:16,393 Driver has been saved in cache [C:\Users\cca77\.wdm\drivers\chromedriver\win64\154.0.8037.92]
+2026-10-01 10:20:20,335 ====== WebDriver manager ======
+2026-10-01 10:20:21,313 Driver [C:\Users\cca77\.wdm\drivers\edgedriver\win64\154.0.4258.48\msedgedriver.exe] found in cache by browser version
+2026-10-01 10:20:22,151 ==================================================
+2026-10-01 10:20:22,151 Запуск теста: Демонстрация скриншота при падении
+2026-10-01 10:20:22,151 Открываем страницу логина
+2026-10-01 10:20:23,901 Начинаем логин пользователя invalid_user
+2026-10-01 10:20:23,901 Вводим логин: invalid_user
+2026-10-01 10:20:23,945 Вводим пароль: wrong_password
+2026-10-01 10:20:23,980 Нажимаем кнопку Login
+2026-10-01 10:20:24,011 Логин завершен
