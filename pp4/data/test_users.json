@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expected_result": "success",
+      "description": "Успешный вход пользователя"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expected_result": "error",
+      "error_message": "Epic sadface: Sorry, this user has been locked out.",
+      "description": "Заблокированный пользователь"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "expected_result": "success",
+      "description": "Пользователь с проблемами"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "expected_result": "success",
+      "description": "Пользователь с задержкой"
+    }
+  ]
+}
