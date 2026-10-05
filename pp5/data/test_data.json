@@ -1,0 +1,31 @@
+{
+  "users": {
+    "standard": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "problem": {
+      "username": "problem_user",
+      "password": "secret_sauce"
+    }
+  },
+  "checkout_info": {
+    "valid": {
+      "first_name": "Иван",
+      "last_name": "Петров",
+      "postal_code": "123456"
+    },
+    "invalid": {
+      "first_name": "",
+      "last_name": "Петров",
+      "postal_code": "123456"
+    }
+  },
+  "products": {
+    "popular": [
+      "Sauce Labs Backpack",
+      "Sauce Labs Bike Light",
+      "Sauce Labs Bolt T-Shirt"
+    ]
+  }
+}
